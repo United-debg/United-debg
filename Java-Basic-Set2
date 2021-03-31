@@ -1,0 +1,112 @@
+// Area and Perimeter of Reactangel....
+
+public class Area {
+
+	public static void main(String[] args) {
+		int l=5;
+		int b=7;
+		int area= l*b;
+		int perimeter=2*(l+b);
+		System.out.println("Area of rectangle is: "+area);
+		System.out.println("Perimeter of rectangle is: "+perimeter);
+		
+		}
+}
+
+//Perimeter of triangle...
+
+public class TrianglePerimeter {
+
+	public static void main(String[] args) {
+		int l=2;
+		int b=3;
+		int h= 5;
+		int perimeter=l+b+h;
+		System.out.println("Perimeter of Triangle is: "+perimeter);
+		
+		}
+}
+
+//Arthimetic Operation...
+
+public class Arthimetic {
+
+	public static void main(String[] args) {
+		int l=2345;
+		double b=(8+2345)/3;
+		double c=(b%5)*5;
+		System.out.println("The resultant value is: "+c);
+		}
+}
+
+
+//Assignment Operators...
+
+public class AssignmentOperator {
+
+	public static void main(String[] args) {
+		int l=2345;
+		l +=8;
+		l /=3;
+		l %=5;
+		l *=5;
+	
+		System.out.println("The resultant value is: "+l);
+		
+		}
+}
+
+
+// Check two Number are equal or not...
+
+public class CheckNumber {
+
+	public static void main(String[] args) {
+		System.out.println(23==45);
+		
+		}
+}
+
+//Print power of 7 raised to 5....
+import java.math.*;
+public class Power {
+
+	public static void main(String[] args) {
+		double a= Math.pow(7, 5);
+		System.out.println(a);
+		
+		}
+}
+
+
+// check the and condition...
+
+public class ConditionAnd {
+
+	public static void main(String[] args) {
+		int a=55;
+		int b=70;
+		if(a<50 && a<b) {
+			System.out.println("true");
+		}
+		
+		}
+}
+
+
+//check the or condition...
+
+public class ConditionOr {
+
+	public static void main(String[] args) {
+		int a=55;
+		int b=70;
+		if(a<50 || a<b) {
+			System.out.println("true");
+		}
+		
+		}
+}
+
+
+//
