@@ -79,3 +79,15 @@ public class AddValues {
 		
 		}
 }
+
+// Square of two number...
+
+public class Suqare {
+
+	public static void main(String[] args) {
+		double a=3.9;;
+		System.out.println(a*b);
+		
+		}
+}
+
